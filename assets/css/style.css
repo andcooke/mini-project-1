@@ -1,0 +1,98 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #7792fe;
+  font-size: 24px;
+}
+
+
+section {
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+li {
+  color: white;
+  background-color: #444e74;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+input:required {
+  border: 1px dashed red
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color:#444e74;
+}
+
+img {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+aside {
+  background-color: green;
+  margin-right: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  z-index: 2;
+  width: 100%;
+  height: 75px;
+  background-color: #444e74;
+}
+
+footer {
+  bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: #948774;
+}
+
+figcaption {
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#footer-text {
+  color: #7792fe;
+  background-color: #948774;
+  display: block;  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.text-right {
+  margin-top: 20px;
+  text-align: right;
+}
+ 
+
+/* work on cleaning this up  */
